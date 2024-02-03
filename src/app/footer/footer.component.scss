@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    background-color: #4169E1;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    .fa-map-marker {
+        margin-right: 10px;
+    }
+
+    .fa-phone {
+        margin-right: 7px;
+    }
+}

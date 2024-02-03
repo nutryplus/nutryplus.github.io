@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #4169E1;
+    padding: 0vw 10vw;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+}
+
+.header-logo {
+    width: 80px;
+    height: 80px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.header-link {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+        color: #282A36;
+    }
+}
