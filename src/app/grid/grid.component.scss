@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 5vh;
-    padding-bottom: 25vh;
+    padding-bottom: 20vh;
     padding-right: calc(10vw - 25px);
     padding-left: calc(10vw - 25px);
 
@@ -30,6 +30,7 @@
 
         .grid-item-image {
             width: 280px;
+            margin-bottom: 15px;
         }
 
         .grid-item-title {
