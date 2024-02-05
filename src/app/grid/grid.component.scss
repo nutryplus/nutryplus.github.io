@@ -1,7 +1,11 @@
 .grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 5vh calc(10vw - 25px);
+    padding-top: 5vh;
+    padding-bottom: 25vh;
+    padding-right: calc(10vw - 25px);
+    padding-left: calc(10vw - 25px);
 
     .grid-item {
         height: 600px;
