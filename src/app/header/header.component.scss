@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: center;
 
+    position: fixed;
+    top: 0;
+    width: calc(100% - 20vw);
+
     background-color: #4169E1;
     padding: 0vw 10vw;
 

@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-bottom: 20vh;
     padding-right: calc(10vw - 25px);
     padding-left: calc(10vw - 25px);
@@ -68,6 +68,9 @@
             margin-top: 15px;
             padding: 10px;
             text-decoration: none;
+
+            display: flex;
+            justify-content: center;
 
             i {
                 margin-right: 10px;
