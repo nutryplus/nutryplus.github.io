@@ -1,5 +1,6 @@
 .grid {
     display: flex;
+    justify-content: center;
     padding: 5vh calc(10vw - 25px);
 
     .grid-item {
@@ -9,6 +10,8 @@
         flex-direction: column;
         align-items: center;
 
+        justify-content: space-between;
+
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
 
         width: 16.66%;
@@ -16,17 +19,27 @@
         padding: 20px;
 
         .grid-item-image {
-            width: 300px;
+            width: 280px;
         }
 
         .grid-item-title {
-            font-size: 28px;
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
             font-weight: bold;
+            padding: 0px 15px;
         }
 
         .grid-item-desc {
             opacity: 0.5;
             margin-top: 15px;
+        }
+
+        .grid-item-footer {
+            display: flex;
+            flex-flow: column;
+            // position: fixed;
+            // top: 0px;
         }
 
         .grid-item-value {
