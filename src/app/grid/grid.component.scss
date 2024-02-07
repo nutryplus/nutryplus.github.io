@@ -111,3 +111,38 @@
     flex-wrap: wrap;
     justify-content: left;
 }
+
+.flavor-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.flavor-tag {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.flavor-red {
+    background-color: #FF5555;
+}
+
+.flavor-purple {
+    background-color: #BD93F9;
+}
+
+.flavor-unflavored {
+    background-color: #44475A;
+    color: #FFFFFF;
+}
+
+.flavor-orange {
+    background-color: #FFB86C;
+}
+
+.flavor-yellow {
+    background-color: #F1FA8C;
+}
